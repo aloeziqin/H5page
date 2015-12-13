@@ -1,0 +1,12 @@
+.nt_nav{ background: white; }
+.item-content { padding-top: 1rem; }
+.content-block{padding: 0; }
+.buttons-tab{ margin-bottom: -1.3rem;}
+.nt_list-block{  margin: 0; padding: 0 0;}
+.nt_item-content{ padding: 1.6rem; }
+.list-block .item-inner:after{   background-color: white;}
+
+.buttons-tab .button.active{border-color: transparent; color: black; text-decoration: underline; }
+.buttons-tab .button{color: #D0D0D0;}
+
+

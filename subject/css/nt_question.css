@@ -1,0 +1,190 @@
+.nt_nav {
+	background: white;
+}
+
+.content-block {
+	padding: 0;
+}
+
+.buttons-tab {
+	margin-bottom: -1.3rem;
+}
+
+.nt_list-block {
+	margin: 0;
+	padding: 0 0;
+}
+
+.nt_item-content {
+	padding: 1.7rem;
+	margin-bottom: -0.3rem;
+}
+
+.list-block .item-inner:after {
+	background-color: white;
+}
+
+.buttons-tab .button.active {
+	border-color: transparent;
+	color: black;
+	text-decoration: underline;
+}
+
+.buttons-tab .button {
+	color: #D0D0D0;
+}
+
+.list-block {
+	margin: 0.5rem 0;
+}
+
+.nt_mt0 {
+	margin-top: 0;
+}
+
+.nt_pt0 {
+	padding-top: 0;
+}
+
+.img_circle {
+	border-radius: 50%;
+}
+
+.guanzhu {
+	font-size: 0.7rem;
+	color: #a7b7b2;
+	font-weight: normal;
+}
+
+.nt_card {
+	background: white;
+	position: relative;
+	border-radius: 0.1rem;
+	font-size: 0.7rem;
+}
+
+.nt_mb0 {
+	margin-bottom: 0;
+}
+
+.nt_item-subtitle {
+	font-size: 0.75rem;
+	position: relative;
+}
+
+.nt_text {
+	font-size: 0.6rem;
+	color: #3e4445;
+}
+
+.nt_batext {
+	font-size: 0.6rem;
+	color: #808b8c;
+}
+
+.nt_titletext {
+	font-size: 0.8rem;
+	color: #4c5454;
+}
+
+.nt_zantext {
+	font-size: 0.6rem;
+	color: #a7b0b2;
+}
+
+.nt_align {
+	align-items: flex-start;
+}
+
+.nt_ml {
+	margin-left: 0.8rem;
+}
+
+.nt_mr{ margin-right: 0.8rem;}
+
+.nt_mt1 {
+	margin-top: 1rem;
+}
+
+.nt_pt {
+	padding-top: 0.8rem;
+}
+
+.nt_pt04 {
+	padding-top: 0.4rem;
+}
+
+
+
+.nt_pb {
+	padding-bottom: 0.4rem;
+}
+
+.chacan {
+	font-size: 12px;
+	color: #54D9E0;
+	font-weight: 100;
+}
+
+
+.adv {
+	position: fixed;
+	bottom: 0;
+	background: #484e4f;
+	height: 52px;
+	z-index: 999;
+}
+
+.loaddown {
+	display: block;
+	background: #54d9e0;
+	color: white;
+	font-size: 10px;
+	margin-top: 16px;
+	padding: 6px 8px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-right: 10px;
+	width: 68px;
+}
+
+.ad_log {
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #54d9e0;
+	height: 36px;
+	width: 36px;
+}
+
+.nt_close {
+	color: white;
+	opacity: 0.7;
+	margin-top: 8px;
+}
+
+.ad_text {
+	color: white;
+	list-style: none;
+}
+
+
+
+.nt_cardheader {
+	min-height: 3rem;
+	position: relative;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	
+}
+
+.nt_textp{text-align:justify; text-justify:inter-ideograph}
