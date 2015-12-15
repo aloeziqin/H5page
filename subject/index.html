@@ -19,9 +19,9 @@
 	</head>
 
 	<body>
-		<header class="bar bar-nav" style="background: #54d9e0; color: white; ">
+		<header class="bar bar-nav nt_barnav">
 			<img src="img/naitang_logo.png" width="60rem" style="padding-top: 0.45rem;">
-			<div class="pull-right" style=" font-size: 0.6rem; padding-top: 0.65rem; font-weight: 160;">打开&nbsp;APP</div>
+			<div class="pull-right nt_app" >打开&nbsp;APP</div>
 			<i class="icon iconfont pull-right">&#xe600;</i>
 		</header>
 
@@ -39,9 +39,10 @@
 				</div>
 			</div>
 			<!--  按钮切换-->
+			
 			<div class="buttons-tab">
-				<a href="#tab1" class="tab-link active button"><span class="active">内容</span></a>
-				<a href="#tab2" class="tab-link button"><span>造物主</span></a>
+				<a href="#tab1" class="tab-link active button"><span class="sorts">内容</span></a>
+				<a href="#tab2" class="tab-link button"><span >造物主</span></a>
 			</div>
 			<!--  结束按钮切换-->
 
@@ -169,59 +170,21 @@
 			</div>
 			<!-- 结束 切换内容-->
 
-			<div class="list-block media-list">
-				<ul>
-					<li>
-						<div class="item-content">
-							<div class="item-media"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" style='width: 2.2rem;'></div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">标题</div>
-								</div>
-								<div class="item-subtitle">子标题</div>
-							</div>
-						</div>
-					</li>
-
-				</ul>
-
-				<ul>
-					<li>
-						<div class="item-content">
-							<div class="item-media"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" style='width: 2.2rem;'></div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">标题</div>
-								</div>
-								<div class="item-subtitle">子标题</div>
-							</div>
-						</div>
-					</li>
-
-				</ul>
-
-				<ul>
-					<li>
-						<div class="item-content">
-							<div class="item-media"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" style='width: 2.2rem;'></div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">标题</div>
-								</div>
-								<div class="item-subtitle">子标题</div>
-							</div>
-						</div>
-					</li>
-
-				</ul>
-			</div>
+		
 
 		</div>
 
 		<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 		<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.5.6/js/sm.min.js' charset='utf-8'></script>
 		<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.5.6/js/sm-extend.min.js' charset='utf-8'></script>
-
+		<script>
+			Zepto(function($) {
+				$(".tab-link").click(function(){
+					$(this).parent().find("span").removeClass("sorts");
+					$(this).children().addClass("sorts");
+				})
+			})
+	</script>
 	</body>
 
 </html>
